@@ -23,7 +23,7 @@ virtualenv --system-site-packages deepL
 
 # install pytorch
 source ~/envs/deepL/bin/activate
-pip install http://download.pytorch.org/whl/cu80/torch-0.2.0.post1-cp35-cp35m-manylinux1_x86_64.whl
+pip install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
 pip install torchvision tensorboard_logger tqdm
 
 echo "Reboot required."
